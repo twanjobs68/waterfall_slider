@@ -1,0 +1,96 @@
+
+body{
+    background:linear-gradient(purple,gold,white, gold, purple);
+    text-transform: uppercase;
+    
+}
+
+h1{
+    text-align: center;
+    color:gold;
+    border: 15px double black;
+    
+}
+
+.img-box {
+    border:10px dotted gold;
+    height: 500px;
+    width:500px;
+    margin: 0 auto;
+    border-radius:30px;
+    overflow:hidden;
+   
+}
+
+.slider2{
+    display:flex; 
+     animation: waterFall 17s infinite; 
+     animation-play-state: pause; 
+     
+     
+ }
+ 
+ img{
+    
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+    
+}
+
+
+
+
+.myButton{
+    margin-bottom: 60px;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center;
+    padding: 10px 10px ;
+    align-content: center;
+    border-radius: 15px;
+    text-decoration: indigo;
+    font-weight: 900;
+    border:5px solid rgb(52, 6, 75);
+    height:50px;
+    width:144px;
+    background:gold;
+
+}
+.myButton:hover{
+    background: grey;
+
+}
+
+@keyframes waterFall {
+    0%{
+        tranform:translateX(0px)
+    }
+    13%{
+        transform: translateX(-500px)
+    }
+    26%{
+        transform: translateX(-1000px)
+    }
+    39%{
+        transform: translateX(-1500px)
+    }
+    52%{
+        transform: translateX(-2000px)
+    }
+    65%{
+        transform: translateX(-2500px)
+    }
+    78%{
+        transform: translateX(-3000px)
+    }
+    91%{
+        transform: translateX(-3500px)
+    }
+    100%{
+        transform: translateX(-4000px)
+    }
+    0%{
+        transform: translateX(0px)
+    }
+}
